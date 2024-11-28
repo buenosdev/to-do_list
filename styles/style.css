@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+}
+
+.navbar div {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f8d7da;
+}
+
+.navbar img {
+    max-width: 8%;
+    color: white;
+}
+
+/*Conteudo principal*/
+.content{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+}
+
+.task-input{
+    border-radius: 20px;
+    border-color: red;
+    width: 100%;
+    padding: 10px;
+	grid-area: 3/3;
+}
+
+.taskButton{
+    border-radius: 20px;
+    border-color: red;
+    width: 50%;
+    padding: 10px;
+    grid-area: 3/2;
+}

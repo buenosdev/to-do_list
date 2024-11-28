@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./bd/main.py">
+    <title>Gerenciador de Tarefas</title>
 </head>
 <body>
-
     <nav class="navbar">
-        <div><a href="#"><img src="./image/home.png" alt="home"></a></div>
-
+        <div><a href="#"><img src="./image/home.png" alt="Home"></a></div>
         <div><a href="#contact">Contato</a></div>
     </nav>
 
     <div class="grid content">
         <input type="text" id="taskTitle" class="task-input" placeholder="Digite a tarefa">
         <button class="taskButton" id="addTask">Adicionar Tarefa</button>
-        <ul id="taskList"></ul>
+        <ul id="taskList" class="task-list"></ul>
     </div>
 
-    <script src="script/script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
